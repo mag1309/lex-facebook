@@ -1,6 +1,6 @@
 # Lex Facebook Integration 
 
-This is a sample Chatbot using the Lex Lambda API available at https://github.com/mag1309/java-aws-lex-api.  It uses Java 8, Amazon's Lex & Lambda services and Facebook Messanger.
+This is a sample Chatbot using the Lex Lambda SDK available at https://github.com/mag1309/java-aws-lambda-lex-sdk.git.  It uses Java 8, Amazon's Lex & Lambda services and Facebook Messanger.
 
 ### Prerequisites
 
@@ -24,7 +24,13 @@ git clone https://github.com/mag1309/lex-facebook.git
 mvn clean package
 ```
 
-The JAR (lex-facebook-example-1.0.jar) will be manually upload to AWS Lambda after creation of Lambda function.
+The JAR (lex-facebook-example-1.0.jar) will be manually upload to AWS Lambda after creation of Lambda function. Use com.sample.chatbot.handlers.HelloHandler::handleRequest as handle name.
+
+3. Create a ChatBot via AWS Lex and publish it via Facebook channel.  Refer below link for more details
+
+```
+https://docs.aws.amazon.com/lex/latest/dg/fb-bot-association.html
+```
 
 ## Usage
 
