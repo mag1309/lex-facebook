@@ -8,7 +8,7 @@ Following is required to run this code:
 
 * Java 8
 * Maven 3+
-* Lex Lambda API available at https://github.com/mag1309/java-aws-lex-api. This need to installed locally as suggested.
+* Java Lex Lambda SDK available at https://github.com/mag1309/java-aws-lambda-lex-sdk.git. This need to installed locally as suggested.
 
 ### Building
 
