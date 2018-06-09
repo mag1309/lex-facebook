@@ -43,4 +43,4 @@ Lex:   Hello Tom, Hope you are doing well.
 
 ## License
 
-This project is licensed under the Apache License v2.0 - see the [LICENSE.txt](LICENSE.txt) file for details
+This project is licensed under the Apache License v2.0
